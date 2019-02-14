@@ -1,0 +1,75 @@
+<template>
+  <v-layout mx-auto>
+    <v-flex xs6 offset-xs3>
+      <panel title="Login">
+        <v-text-field
+          label="Email"
+          v-model="email"
+        ></v-text-field>
+        <br>
+
+        <v-text-field
+          label="Password"
+          type="password"
+          v-model="password"
+        ></v-text-field>
+        <br>
+
+        <div
+          class="error"
+          v-html="error"/>
+        <br>
+
+        <v-btn
+          dark
+          class="orange"
+          @click="login">
+          LOGIN
+        </v-btn>
+      </panel>
+    </v-flex>
+  </v-layout>
+</template>
+
+<script>
+import AuthenticationService from '@/services/AuthenticationService'
+import Panel from '@/components/Panel'
+
+export default {
+  data () {
+    return {
+      email: '',
+      password: '',
+      error: null
+    }
+  },
+  methods: {
+    async login () { // log in part
+      try {
+        const response = await AuthenticationService.login({
+          email: this.email,
+          isAdmin: true,
+          password: this.password
+        }) // changing the store stuff
+        this.$store.dispatch('setAdmin', response.data.token)
+        this.$store.dispatch('setUser', response.data.user)
+        this.$router.push({
+          name: 'adminUser'
+        })
+      } catch (error) {
+        this.error = error.response.data.error
+      }
+    }
+  },
+  components: {
+    Panel
+  }
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+.error {
+  color: white;
+}
+</style>

@@ -1,0 +1,135 @@
+
+> server@1.0.0 start /home/ubuntu/final/server
+> ./node_modules/nodemon/bin/nodemon.js src/app.js --exec 'npm run lint && node'
+
+[33m[nodemon] 1.17.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `npm run lint && node src/app.js`[39m
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `./node_modules/nodemon/bin/nodemon.js src/app.js --exec 'npm run lint && node'`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/ubuntu/.npm/_logs/2018-07-22T06_40_44_101Z-debug.log
+
+> server@1.0.0 lint /home/ubuntu/final/server
+> eslint **/*.js
+
+
+> server@1.0.0 start /home/ubuntu/final/server
+> ./node_modules/nodemon/bin/nodemon.js src/app.js --exec 'npm run lint && node'
+
+[33m[nodemon] 1.17.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `npm run lint && node src/app.js`[39m
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `./node_modules/nodemon/bin/nodemon.js src/app.js --exec 'npm run lint && node'`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/ubuntu/.npm/_logs/2018-08-26T06_11_07_347Z-debug.log
+
+> server@1.0.0 lint /home/ubuntu/final/server
+> eslint **/*.js
+
+
+> server@1.0.0 start /home/ubuntu/final/server
+> ./node_modules/nodemon/bin/nodemon.js src/app.js --exec 'npm run lint && node'
+
+[33m[nodemon] 1.17.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `npm run lint && node src/app.js`[39m
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `./node_modules/nodemon/bin/nodemon.js src/app.js --exec 'npm run lint && node'`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/ubuntu/.npm/_logs/2018-08-26T06_15_10_393Z-debug.log
+
+> server@1.0.0 lint /home/ubuntu/final/server
+> eslint **/*.js
+
+
+> server@1.0.0 start /home/ubuntu/final/server
+> ./node_modules/nodemon/bin/nodemon.js src/app.js --exec 'npm run lint && node'
+
+[33m[nodemon] 1.17.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `npm run lint && node src/app.js`[39m
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `./node_modules/nodemon/bin/nodemon.js src/app.js --exec 'npm run lint && node'`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/ubuntu/.npm/_logs/2018-08-26T06_24_27_309Z-debug.log
+
+> server@1.0.0 lint /home/ubuntu/final/server
+> eslint **/*.js
+
+
+> server@1.0.0 start /home/ubuntu/final/server
+> ./node_modules/nodemon/bin/nodemon.js src/app.js --exec 'npm run lint && node'
+
+[33m[nodemon] 1.17.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `npm run lint && node src/app.js`[39m
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `./node_modules/nodemon/bin/nodemon.js src/app.js --exec 'npm run lint && node'`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/ubuntu/.npm/_logs/2018-08-26T06_34_21_045Z-debug.log
+
+> server@1.0.0 lint /home/ubuntu/final/server
+> eslint **/*.js
+
