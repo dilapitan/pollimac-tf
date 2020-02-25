@@ -4,12 +4,13 @@ Pollimac TF stands for "Pollen Image Classifier" using TensorFlow.
 Pollimac TF is an extension of the original SP of Prof. Joman Encinas. It was created using TensorFlow and its pre-classified image classifier, coupled with NodeJS and VueJS for its system.
 
 ###### Setting the app
-1. Install TensorFlow
+1. Install [TensorFlow](https://www.tensorflow.org/install)
 2. After installing TensorFlow, run the virtual environment before opening your terminals. Upon running the virtual environment via TensorFlow, it should look like:
 
 ```
 (tensorflow) $         
 ```
+Note: TensorFlow can now be ran with Docker. 
 
 ###### Running the app
 
