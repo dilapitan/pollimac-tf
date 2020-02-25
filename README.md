@@ -20,6 +20,7 @@ cd pollimac-tf/server # terminal for the server
 ```
 
 2. Run `npm install` on `client` and `server`. Make sure that the version of Node is version 8 or higher.
+Note: I'm experiencing an error upon `npm install` on the server. Just use the Node version 8.11.1 (switching/installing Node versions is easy with [nvm](https://nodesource.com/blog/installing-node-js-tutorial-using-nvm-on-mac-os-x-and-ubuntu/))
 
 3. After installing the packages, run `npm start` on the server. It should run on `port 8081`.
 
