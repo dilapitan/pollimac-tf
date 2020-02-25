@@ -5,7 +5,7 @@ Pollimac TF is an extension of the original SP of Prof. Joman Encinas. It was cr
 
 ###### Setting the app
 1. Install [TensorFlow](https://www.tensorflow.org/install)
-2. After installing TensorFlow, run the virtual environment before opening your terminals. Upon running the virtual environment via TensorFlow, it should look like:
+2. After installing TensorFlow, run the virtual environment before opening your terminals. Upon running the virtual environment via TensorFlow with the command `source activate tensorflow`, it should look like:
 
 ```
 (tensorflow) $         
